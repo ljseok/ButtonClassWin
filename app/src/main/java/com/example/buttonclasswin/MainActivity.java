@@ -24,18 +24,19 @@ public class MainActivity extends AppCompatActivity {
         mButton2.setOnClickListener(new MyOnClickListener2());
     }
 
-    private class MyOnClickListener implements View.OnClickListener {
 
+    private class MyOnClickListener implements View.OnClickListener {
         @Override
         public void onClick(View view) {
-            mTextView1.setText("You clicked 이준석 's  button");
+            mTextView1.setText("You clicked 이준석 's button");
         }
     }
 
     private class MyOnClickListener2 implements View.OnClickListener {
         @Override
         public void onClick(View view) {
-            mTextView1.setText("You Clicked my 2nd button");
+            mTextView1.setText("You clicked my 2nd button");
+
         }
     }
 }
